@@ -72,7 +72,6 @@ if(!$_SESSION['user_email'])
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ON-SHOP</title>
-	 <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/local.css" />
@@ -98,12 +97,12 @@ if(!$_SESSION['user_email'])
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li><a href="index.php"> &nbsp; <span class='glyphicon glyphicon-home'></span> Home</a></li>
-					<li><a href="shop.php?id=1"> &nbsp; <span class='glyphicon glyphicon-shopping-cart'></span> Shop Now</a></li>
-					<li  class="active"><a href="cart_items.php"> &nbsp; <span class='fa fa-cart-plus'></span> Shopping Cart Lists</a></li>
-					<li><a href="orders.php"> &nbsp; <span class='glyphicon glyphicon-list-alt'></span> My Ordered Items</a></li>
+					<li><a href="shop.php?id=1"> &nbsp;  Shop Now</a></li>
+					<li  class="active"><a href="cart_items.php"> &nbsp;  Shopping Cart Lists</a></li>
+					<li><a href="orders.php"> &nbsp;  My Ordered Items</a></li>
 <!--	<li><a href="view_purchased.php"> &nbsp; <span class='glyphicon glyphicon-eye-open'></span> Previous Items Ordered</a></li>   -->
-					<li><a data-toggle="modal" data-target="#setAccount"> &nbsp; <span class='fa fa-gear'></span> Account Settings</a></li>
-					<li><a href="logout.php"> &nbsp; <span class='glyphicon glyphicon-off'></span> Logout</a></li>
+					<li><a data-toggle="modal" data-target="#setAccount"> &nbsp;  Account Settings</a></li>
+					<li><a href="logout.php"> &nbsp;  Logout</a></li>
 					
                     
                 </ul>
